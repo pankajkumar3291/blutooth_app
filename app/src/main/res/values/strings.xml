@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">DS SOLACHI</string>
+    <string name="dssolachi">DS SOLACHI</string>
+    <string name="menu">menu</string>
+    <string name="info">INFO</string>
+    <string name="fop">FOP</string>
+    <string name="fos">FOS</string>
+    <string name="msp">Inputs</string>
+    <string name="MSS">PICTURES</string>
+    <string name="afp">DASHBOARD</string>
+    <string name="afs">AFS</string>
+    <string name="afm">AFM</string>
+    <string name="clean">clean</string>
+    <string name="saveandshare"><![CDATA[save & share]]></string>
+    <string name="tv_info">INFO</string>
+    <string name="btnsave">SAVE</string>
+    <string name="ed_pObject">P.OBJECT:</string>
+    <string name="ed_Reference">REFERENCE:</string>
+    <string name="ed_Location">LOCATION:</string>
+    <string name="ed_Place">PLACE:</string>
+    <string name="ed_By">BY:</string>
+    <string name="ed_CorrectMM">CORRECTION(mm)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cinta">CINTA</string>
+    <string name="save">Save</string>
+    <string name="permsion">Permission Not Granted</string>
+    <string name="title">Confirm</string>
+    <string name="content">All your save data will be deleted.</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="gotIt">Share</string>
+    <string name="fiepath">File Path</string>
+
+    <string-array name="inputdrop">
+        <item>Feet and Inches</item>
+        <item>mm</item>
+    </string-array>
+
+    <string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
+
+
+
+    <string-array name="pop_up">
+        <item>T</item>
+        <item>CNO</item>
+        <item>Measurement</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="charanveer"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:gravity="right"
+        android:singleLine="true"
+        android:padding="@dimen/_5sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:textSize="@dimen/_12ssp"
+        android:background="@color/black"/>
+
+</LinearLayout>
