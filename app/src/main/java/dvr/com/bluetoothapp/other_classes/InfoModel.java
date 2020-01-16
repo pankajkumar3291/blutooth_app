@@ -1,6 +1,8 @@
 package dvr.com.bluetoothapp.other_classes;
 
-public class InfoModel {
+import java.io.Serializable;
+
+public class InfoModel implements Serializable {
 
     public InfoModel(String name, String value) {
         this.name = name;

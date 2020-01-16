@@ -28,9 +28,20 @@
     <string name="title">Confirm</string>
     <string name="content">All your save data will be deleted.</string>
     <string name="agree">Agree</string>
+
+
+
+
     <string name="disagree">Disagree</string>
     <string name="gotIt">Share</string>
+    <string name="save_picture">Picture Report</string>
+    <string name="save_graph">Graph Report</string>
+    <string name="share_report">Share Report</string>
+    <string name="select_report">Select a Report you want to share!</string>
     <string name="fiepath">File Path</string>
+
+    <string name="save_report">Save Report</string>
+    <string name="select_save_report">Select a Report you want to save!</string>
 
     <string-array name="inputdrop">
         <item>Feet and Inches</item>
@@ -47,6 +58,7 @@
 
 
     <string-array name="pop_up">
+        <item>---</item>
         <item>T</item>
         <item>CNO</item>
         <item>Measurement</item>

@@ -10,11 +10,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp">
-
         <TextView
             android:id="@+id/textView11"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginEnd="8dp"
             android:padding="@dimen/_5sdp"
             android:text="BY :-"
             android:textColor="@color/white"
@@ -41,6 +41,42 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
+                <EditText
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_28sdp"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:text=","
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:textSize="@dimen/_13ssp"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/textView6"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView13"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_28sdp"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:hint="In"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="#929292"
+                    android:visibility="gone"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView65"
+                    app:layout_constraintTop_toTopOf="parent" />
+
                 <ImageView
                     android:id="@+id/imageView4"
                     android:layout_width="wrap_content"
@@ -54,13 +90,15 @@
                 <EditText
                     android:id="@+id/textView13"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:padding="@dimen/_5sdp"
-                    android:gravity="right"
+                    android:layout_height="@dimen/_28sdp"
                     android:background="@android:color/transparent"
-                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="right"
+                    android:hint="ft"
+                    android:textColorHint="#929292"
+                    android:padding="@dimen/_5sdp"
                     android:textColor="@color/white"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                    app:layout_constraintEnd_toStartOf="@+id/textView65"
+                    app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -104,4 +142,6 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:background="@color/white" />
+
+
 </LinearLayout>

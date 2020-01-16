@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import com.mobsandgeeks.saripaar.ValidationError;
@@ -127,9 +126,9 @@ public class FragmentInfo extends Fragment implements Validator.ValidationListen
         Hawk.put("extra", edextra.getText().toString());
         Hawk.put("correction", edCorrect.getText().toString());
 
-        MyUtil.setCorrection(getActivity(), edCorrect.getText().toString());
-        MyUtil.setLocation(getActivity(), edloc.getText().toString());
-        MyUtil.setBy(getActivity(), edby.getText().toString());
+        MyUtil.setCorrection(getActivity(),edCorrect.getText().toString());
+        MyUtil.setLocation(getActivity(),edloc.getText().toString());
+        MyUtil.setBy(getActivity(),edby.getText().toString());
         Log.i(TAG, "correction Saved -->" + MyUtil.getCorrection(getActivity()));
         TastyToast.makeText(getActivity(), "Saved Succesfully", TastyToast.LENGTH_SHORT, TastyToast.SUCCESS).show();
     }
@@ -142,15 +141,12 @@ public class FragmentInfo extends Fragment implements Validator.ValidationListen
             // Display error messages ;)
             if (view instanceof EditText){
                 ((EditText) view).setError(message);
-            } else {
+            } else{
             }
         }
     }
-
     @OnClick(R.id.btsave)
     public void setBtSaveinfo() {
         validator.validate();
     }
-
-
 }
